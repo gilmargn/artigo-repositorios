@@ -1,0 +1,369 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{arcuri2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce60719b000244b24fc4e01f2153d73c}{%
+           family={Arcuri},
+           familyi={A\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce60719b000244b24fc4e01f2153d73c}
+      \strng{fullhash}{ce60719b000244b24fc4e01f2153d73c}
+      \strng{bibnamehash}{ce60719b000244b24fc4e01f2153d73c}
+      \strng{authorbibnamehash}{ce60719b000244b24fc4e01f2153d73c}
+      \strng{authornamehash}{ce60719b000244b24fc4e01f2153d73c}
+      \strng{authorfullhash}{ce60719b000244b24fc4e01f2153d73c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2020 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW)}
+      \field{title}{Teaching Software Testing in an Algorithms and Data Structures Course}
+      \field{year}{2020}
+      \field{pages}{419\bibrangedash 424}
+      \range{pages}{6}
+    \endentry
+    \entry{barr2018}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ff26328f878fd974715333774081aee7}{%
+           family={Barr},
+           familyi={B\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{ff26328f878fd974715333774081aee7}
+      \strng{fullhash}{ff26328f878fd974715333774081aee7}
+      \strng{bibnamehash}{ff26328f878fd974715333774081aee7}
+      \strng{authorbibnamehash}{ff26328f878fd974715333774081aee7}
+      \strng{authornamehash}{ff26328f878fd974715333774081aee7}
+      \strng{authorfullhash}{ff26328f878fd974715333774081aee7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Problem with Software: Why Smart Engineers Write Bad Code}
+      \field{year}{2018}
+    \endentry
+    \entry{borges2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3edd99d257876f7aecd27cf8d3026299}{%
+           family={Borges},
+           familyi={B\bibinitperiod},
+           given={Hudson},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=177388f8935b27f403f6b75201629f44}{%
+           family={Hora},
+           familyi={H\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f324ce400373656751c8c5ec06005410}{%
+           family={Valente},
+           familyi={V\bibinitperiod},
+           given={Marco\bibnamedelima Tulio},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dafdec298be6b99de2cfd690e2ad5408}
+      \strng{fullhash}{acbcabc74f1d9e61327b0942728f0f3a}
+      \strng{bibnamehash}{acbcabc74f1d9e61327b0942728f0f3a}
+      \strng{authorbibnamehash}{acbcabc74f1d9e61327b0942728f0f3a}
+      \strng{authornamehash}{dafdec298be6b99de2cfd690e2ad5408}
+      \strng{authorfullhash}{acbcabc74f1d9e61327b0942728f0f3a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2016 IEEE International Conference on Software Maintenance and Evolution (ICSME)}
+      \field{title}{Understanding the Factors That Impact the Popularity of GitHub Repositories}
+      \field{year}{2016}
+      \field{pages}{334\bibrangedash 344}
+      \range{pages}{11}
+    \endentry
+    \entry{lei11922_2008}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa43becf0d21463be7540bf3b40bf243}{%
+           family={{Brasil}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Diário Oficial da União}%
+      }
+      \strng{namehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{fullhash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{bibnamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorbibnamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authornamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorfullhash}{aa43becf0d21463be7540bf3b40bf243}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Institui a Rede Federal de Educação Profissional, Científica e Tecnológica, cria os Institutos Federais de Educação, Ciência e Tecnologia, e dá outras providências}
+      \field{title}{Lei n. 11.892, de 29 de dezembro de 2008}
+      \field{year}{2008}
+    \endentry
+    \entry{moodle2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7aaa4ed57b4de7352a50a052ec8645f5}{%
+           family={Community},
+           familyi={C\bibinitperiod},
+           given={Moodle},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7aaa4ed57b4de7352a50a052ec8645f5}
+      \strng{fullhash}{7aaa4ed57b4de7352a50a052ec8645f5}
+      \strng{bibnamehash}{7aaa4ed57b4de7352a50a052ec8645f5}
+      \strng{authorbibnamehash}{7aaa4ed57b4de7352a50a052ec8645f5}
+      \strng{authornamehash}{7aaa4ed57b4de7352a50a052ec8645f5}
+      \strng{authorfullhash}{7aaa4ed57b4de7352a50a052ec8645f5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{VPL - Virtual Programming Lab Plugin}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://moodle.org/plugins/mod_vpl
+      \endverb
+      \verb{url}
+      \verb https://moodle.org/plugins/mod_vpl
+      \endverb
+    \endentry
+    \entry{google2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ee46292309d59259e69ff82edd151b48}{%
+           family={Developers},
+           familyi={D\bibinitperiod},
+           given={Google},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee46292309d59259e69ff82edd151b48}
+      \strng{fullhash}{ee46292309d59259e69ff82edd151b48}
+      \strng{bibnamehash}{ee46292309d59259e69ff82edd151b48}
+      \strng{authorbibnamehash}{ee46292309d59259e69ff82edd151b48}
+      \strng{authornamehash}{ee46292309d59259e69ff82edd151b48}
+      \strng{authorfullhash}{ee46292309d59259e69ff82edd151b48}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Google Classroom Add-ons API Examples}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://developers.google.com/classroom/add-ons
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/classroom/add-ons
+      \endverb
+    \endentry
+    \entry{momcheva2025}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=79ab3a3614bbb0b3ee1e5ca8edaed3fb}{%
+           family={Momcheva},
+           familyi={M\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cae28f59eaf10a95cb2dc76620b9844}{%
+           family={Pavlov},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{23efa2b38d04c909d5db45cfae378a75}
+      \strng{fullhash}{23efa2b38d04c909d5db45cfae378a75}
+      \strng{bibnamehash}{23efa2b38d04c909d5db45cfae378a75}
+      \strng{authorbibnamehash}{23efa2b38d04c909d5db45cfae378a75}
+      \strng{authornamehash}{23efa2b38d04c909d5db45cfae378a75}
+      \strng{authorfullhash}{23efa2b38d04c909d5db45cfae378a75}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Source Education}
+      \field{title}{Teaching Open Science through GitHub in STEAM Education}
+      \field{year}{2025}
+    \endentry
+    \entry{pacheco2011}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3dd803cf3cdb4ba7184ac2394cd7b16a}{%
+           family={Pacheco},
+           familyi={P\bibinitperiod},
+           given={Eliezer},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3dd803cf3cdb4ba7184ac2394cd7b16a}
+      \strng{fullhash}{3dd803cf3cdb4ba7184ac2394cd7b16a}
+      \strng{bibnamehash}{3dd803cf3cdb4ba7184ac2394cd7b16a}
+      \strng{authorbibnamehash}{3dd803cf3cdb4ba7184ac2394cd7b16a}
+      \strng{authornamehash}{3dd803cf3cdb4ba7184ac2394cd7b16a}
+      \strng{authorfullhash}{3dd803cf3cdb4ba7184ac2394cd7b16a}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Brasília: SETEC/MEC}
+      \field{title}{Os Institutos Federais: Uma Revolução na Educação Profissional e Tecnológica}
+      \field{year}{2011}
+    \endentry
+    \entry{pressman2016}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d3f81788d99cf425c4b6e0a454baab0}{%
+           family={Pressman},
+           familyi={P\bibinitperiod},
+           given={Roger\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {AMGH}%
+      }
+      \strng{namehash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{fullhash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{bibnamehash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{authorbibnamehash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{authornamehash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \strng{authorfullhash}{4d3f81788d99cf425c4b6e0a454baab0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8ª}
+      \field{title}{Engenharia de Software: Uma Abordagem Profissional}
+      \field{year}{2016}
+    \endentry
+    \entry{sokol2013}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5b86a70e955fc814c5cb70e2562709a5}{%
+           family={Sokol},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d77276def3f27ae73d2aaeacb47345b7}{%
+           family={Aniche},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ded93a2ae991c4e58e8c14bd6b6345c5}{%
+           family={Gerosa},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c9bed3a2ae35ac811c7dc005e63eb561}
+      \strng{fullhash}{4a7179406e6e25f90b457405f32432e5}
+      \strng{bibnamehash}{4a7179406e6e25f90b457405f32432e5}
+      \strng{authorbibnamehash}{4a7179406e6e25f90b457405f32432e5}
+      \strng{authornamehash}{c9bed3a2ae35ac811c7dc005e63eb561}
+      \strng{authorfullhash}{4a7179406e6e25f90b457405f32432e5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Minicursos do Congresso Brasileiro de Software}
+      \field{title}{Minerando Repositórios de Software}
+      \field{year}{2013}
+    \endentry
+    \entry{vanGeest2024}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c725dcebb5ffd0d6ca3f1d125dca749}{%
+           family={Geest},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed723f8c4d6d2e5cca0df3867ab6196e}
+      \strng{fullhash}{ed723f8c4d6d2e5cca0df3867ab6196e}
+      \strng{bibnamehash}{ed723f8c4d6d2e5cca0df3867ab6196e}
+      \strng{authorbibnamehash}{ed723f8c4d6d2e5cca0df3867ab6196e}
+      \strng{authornamehash}{ed723f8c4d6d2e5cca0df3867ab6196e}
+      \strng{authorfullhash}{ed723f8c4d6d2e5cca0df3867ab6196e}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{title}{Glittr.org: A Platform for Discovering Git-based Educational Materials}
+      \field{year}{2024}
+    \endentry
+  \enddatalist
+  \missing{kitchenham2004}
+  \missing{lgpd2018}
+  \missing{page2021prisma}
+  \missing{qian2017}
+  \missing{sommerville2011}
+\endrefsection
+\endinput
+
