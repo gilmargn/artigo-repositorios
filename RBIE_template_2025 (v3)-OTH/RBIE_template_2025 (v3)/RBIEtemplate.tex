@@ -175,25 +175,25 @@ Embora existam serviços alternativos de hospedagem de repositórios, como GitLa
 
 O recorte geográfico da pesquisa é a Amazônia Legal, região político-administrativa brasileira que compreende os estados do Acre, Amapá, Amazonas, Mato Grosso, Pará, Rondônia, Roraima e Tocantins. Foram analisadas as organizações oficiais correspondentes aos Institutos Federais (IFs) da região, conforme listado na Tabela~\ref{tab:ifs}.
 
-%\begin{table}[H]
-%\centering
-%\caption{Institutos Federais da Amazônia Legal analisados}
-%\label{tab:ifs}
-%\begin{tabular}{|l|l|l|}
-%\hline
-%\textbf{Sigla} & \textbf{Instituição} & \textbf{Estado} \\
-%\hline
-%IFAM & Instituto Federal do Amazonas & AM \\
-%IFAC & Instituto Federal do Acre & AC \\
-%IFRO & Instituto Federal de Rondônia & RO \\
-%IFRR & Instituto Federal de Roraima & RR \\
-%IFAP & Instituto Federal do Amapá & AP \\
-%IFTO & Instituto Federal do Tocantins & TO \\
-%IFPA & Instituto Federal do Pará & PA \\
-%IFMT & Instituto Federal do Mato Grosso & MT \\
-%\hline
-%\end{tabular}
-%\end{table}
+\begin{table}[H]
+\centering
+\caption{Institutos Federais da Amazônia Legal analisados}
+\label{tab:ifs}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Sigla} & \textbf{Instituição} & \textbf{Estado} \\
+\hline
+IFAM & Instituto Federal do Amazonas & AM \\
+IFAC & Instituto Federal do Acre & AC \\
+IFRO & Instituto Federal de Rondônia & RO \\
+IFRR & Instituto Federal de Roraima & RR \\
+IFAP & Instituto Federal do Amapá & AP \\
+IFTO & Instituto Federal do Tocantins & TO \\
+IFPA & Instituto Federal do Pará & PA \\
+IFMT & Instituto Federal do Mato Grosso & MT \\
+\hline
+\end{tabular}
+\end{table}
 
 A coleta de dados foi realizada utilizando a API REST do GitHub, com token de autenticação pessoal para garantir maior limite de requisições (5.000 por hora). Para cada organização identificada, foram extraídas métricas como número total de repositórios públicos, linguagens de programação utilizadas, data do último commit, número de estrelas e forks.
 
@@ -232,25 +232,25 @@ A seleção dos estudos será realizada em três etapas: (i) triagem por título
 
 Os resultados da coleta via API do GitHub revelam uma baixíssima adoção institucional da plataforma. A Tabela~\ref{tab:resultados} apresenta o panorama dos IFs da Amazônia Legal.
 
-%\begin{table}[H]
-%\centering
-%\caption{Adoção do GitHub por IF na Amazônia Legal}
-%\label{tab:resultados}
-%\begin{tabular}{|l|l|c|}
-%\hline
-%\textbf{IF} & \textbf{Status} & \textbf{Repositórios Públicos} \\
-%\hline
-%IFRO & Com repositórios & 4 \\
-%IFAC & Com repositórios & 1 \\
-%IFAM & Sem repositórios & 0 \\
-%IFRR & Sem repositórios & 0 \\
-%IFAP & Sem repositórios & 0 \\
-%IFTO & Sem repositórios & 0 \\
-%IFMT & Sem repositórios & 0 \\
-%IFPA & Não encontrado (404) & - \\
-%\hline
-%\end{tabular}
-%\end{table}
+\begin{table}[H]
+\centering
+\caption{Adoção do GitHub por IF na Amazônia Legal}
+\label{tab:resultados}
+\begin{tabular}{|l|l|c|}
+\hline
+\textbf{IF} & \textbf{Status} & \textbf{Repositórios Públicos} \\
+\hline
+IFRO & Com repositórios & 4 \\
+IFAC & Com repositórios & 1 \\
+IFAM & Sem repositórios & 0 \\
+IFRR & Sem repositórios & 0 \\
+IFAP & Sem repositórios & 0 \\
+IFTO & Sem repositórios & 0 \\
+IFMT & Sem repositórios & 0 \\
+IFPA & Não encontrado (404) & - \\
+\hline
+\end{tabular}
+\end{table}
 
 Apenas 2 dos 8 IFs analisados (25\%) possuem organização oficial no GitHub com repositórios públicos. O IFRO concentra 80\% dos repositórios encontrados (4 de 5), enquanto o IFPA sequer possui organização registrada na plataforma, retornando erro HTTP 404.
 
@@ -263,22 +263,22 @@ Os repositórios encontrados utilizam linguagens diversas, sem um padrão defini
 
 A busca por usuários que mencionam a sigla "ifam" retornou 349 perfis. Uma análise amostral dos primeiros 100 perfis revelou a seguinte distribuição aproximada:
 
-%\begin{table}[H]
-%\centering
-%\caption{Classificação de usuários por vínculo aparente (amostra IFAM)}
-%\label{tab:usuarios}
-%\begin{tabular}{|l|c|}
-%\hline
-%\textbf{Categoria} & \textbf{Percentual na amostra} \\
-%\hline
-%Estudantes & 65\% \\
-%Professores/Pesquisadores & 15\% \\
-%Servidores técnicos & 5\% \\
-%Projetos institucionais & 3\% \\
-%Não classificados & 12\% \\
-%\hline
-%\end{tabular}
-%\end{table}
+\begin{table}[H]
+\centering
+\caption{Classificação de usuários por vínculo aparente (amostra IFAM)}
+\label{tab:usuarios}
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Categoria} & \textbf{Percentual na amostra} \\
+\hline
+Estudantes & 65\% \\
+Professores/Pesquisadores & 15\% \\
+Servidores técnicos & 5\% \\
+Projetos institucionais & 3\% \\
+Não classificados & 12\% \\
+\hline
+\end{tabular}
+\end{table}
 
 A predominância de estudantes (65\%) sugere que o GitHub é utilizado majoritariamente como ferramenta de aprendizado e portfólio pessoal, e não como estratégia institucional de compartilhamento de código.
 
