@@ -395,7 +395,7 @@
 % Parametros do pacote listings para produzir codigo-fonte conforme
 % o padrao exigido pela revista.
 %=======================================================================
-\lstset{
-	basicstyle=\scriptsize\ttfamily,
-	frame=single
-}
+%\lstset{
+%	basicstyle=\scriptsize\ttfamily,
+%	frame=single
+%}

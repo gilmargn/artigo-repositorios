@@ -4,86 +4,40 @@
 
 % The above language combination is for this template document only.
 % You should use one of the following:
-\documentclass[english, spanish, brazilian]{RBIEarticle} % for papers in portuguese
+%\documentclass[english, spanish, brazilian]{RBIEarticle} % for papers in portuguese
 %\documentclass[brazilian, spanish, english]{RBIEarticle} % for papers in english
 %\documentclass[brazilian, english, spanish]{RBIEarticle} % for papers in spanish
 
 % Papers in Portuguese or Spanish may require the following lines:
-\usepackage[utf8]{inputenc} % chooses UTF-8 as the main character set
-\usepackage[T1]{fontenc} % for correct syllable separation in accented words
-\usepackage{float}
+%
+% Template for RBIE papers in LaTeX
+%
 
-% The next two statements are needed for the example table in this document
-% (i.e. you don't necessarily need them in your own paper)
-\usepackage{colortbl}
-\definecolor{gray}{gray}{.8}
+\documentclass[english, spanish, brazilian]{RBIEarticle}
 
-% Citations and references (Biblatex)
-\usepackage[style=apa]{biblatex}
-\usepackage{csquotes}
-\addbibresource{references.bib}
-
-% Here goes the paper main title
+% Informações do artigo
 \title{Repositórios de Código e Padronização Institucional: Um Estudo Automatizado a partir do GitHub}
-
-% If the manuscript is written in English, then this element must be removed.
 \titleinenglish{Code Repositories and Institutional Standardization: An Automated Study Based on GitHub}
-
-% If the manuscript is written in English, then this element must be removed.
 \titleinspanish{Repositorios de Código y Estandarización Institucional: Un Estudio Automatizado a partir de GitHub}
 
-% Here goes the paper author information (repeat for two or more authors)
-\author{%
-	\parbox{4cm}{%
-		Gilmar G Nascimento\\
-		IFAM\\
-		ORCID: \href{https://orcid.org/0000-0000-0000-0000}{0000-0000-0000-0000}\\
-		<author1@my-email>
-	}
-	\parbox{4cm}{%
-		Adolfo Gustavo SS Neto\\
-		UTFPR\\
-		ORCID: \href{https://orcid.org/0000-0000-0000-0000}{0000-0000-0000-0000}\\
-		<author2@my-email>
-	}
-	\parbox{4cm}{%
-		Maria Claudia Emer\\
-		UTFPR\\
-		ORCID: \href{https://orcid.org/0000-0000-0000-0000}{0000-0000-0000-0000}\\
-		<author1@my-email>
-	}
-	\parbox{4cm}{%
-		Laudelino Bastos Cordeiro\\
-		UTFPR\\
-		ORCID: \href{https://orcid.org/0000-0000-0000-0000}{0000-0000-0000-0000}\\
-		<author2@my-email>
-	}
-}
+\author{Gilmar G. N.}
+\heading{RBIE}{2026}
 
-\Submission{dd/Mmm/yyyy}
-\FirstRoundNotif{dd/Mmm/yyyy}
-\NewVersion{dd/Mmm/yyyy}
-\SecondRoundNotif{dd/Mmm/yyyy}
-\CameraReady{dd/Mmm/yyyy}
-\EditionReview{dd/Mmm/yyyy}
-\AvailableOnline{dd/Mmm/yyyy}
-\Published{dd/Mmm/yyyy}
+\citeas{Gilmar, 2026}
 
-% Here goes the page heading information
-\heading{Surname, initials Author 1, Surname, initials Author 2 (for 1 to 2 Authors)	\\
-Last author’s surname et al. (for more than 2 authors)
-}{RBIE v.VV – yyyy}
-
-% And finally here goes the citation information
-\citeas{Last name, Initials., \ldots \& Last name, Initials.  (Year). Article title in the original language. Revista Brasileira de Informática na Educação, vol, pp-pp. https://doi.org/10.5753/rbie.yyyy.id}
-
-%====================================================================
-%\hyphenpenalty=10000
-%\setcounter{page}{01}
+\Submission{20/04/2026}
+\CameraReady{}
+\FirstRoundNotif{}
+\EditionReview{}
+\NewVersion{}
+\AvailableOnline{}
+\SecondRoundNotif{}
+\Published{}
 
 \begin{document}
-\maketitle
-
+	
+	\maketitle
+	
 % If the manuscript is written in English, then this element must be removed.
 \begin{otherlanguage}{brazilian}
 \begin{abstract}
@@ -128,6 +82,8 @@ Diferentemente do que ocorre com PPI e PPCs — cuja ausência inviabiliza o rec
 
 Entre as plataformas que hospedam código aberto, destaca-se o GitHub. Segundo Borges \cite{borges2016}, seus repositórios concentram-se majoritariamente em bibliotecas e arcabouços para desenvolvimento web, ferramentas de código e componentes não web.\footnote{Embora o GitHub seja a plataforma mais utilizada e tenha sido o foco deste estudo por oferecer API pública para coleta automatizada de dados, existem alternativas como GitLab (que permite instalação auto-hospedada, garantindo soberania institucional) e Codeberg (plataforma sem fins lucrativos, sediada na Alemanha e comprometida exclusivamente com software livre). A análise comparativa dessas plataformas no contexto dos Institutos Federais, incluindo aspectos de conformidade com a LGPD e propriedade intelectual, é sugerida como trabalho futuro.} O potencial educacional dessas plataformas, no entanto, depende de uma condição fundamental: a adoção institucional.
 
+
+%a importância do versionamento? comentar sobre o rastros do aprendizado de programação utilzando (logs). 
 Esta pesquisa parte do seguinte problema: quais as aplicações de plataformas de códigos associadas ao ensino de diferentes conteúdos do currículo de cursos oferecidos por IFs da Amazônia Legal? Os objetivos são: (i) identificar as plataformas atualmente utilizadas e seus usos; (ii) identificar e analisar quais conteúdos são privilegiados e quais fatores favorecem ou restringem o uso; (iii) com base nos dados levantados, desenvolver recomendações aplicáveis à realidade da região amazônica.
 
 \section{Referencial teórico}
@@ -135,7 +91,13 @@ Esta pesquisa parte do seguinte problema: quais as aplicações de plataformas d
 
 A engenharia de software desempenha diversos papéis na construção de projetos que envolvem códigos. Conforme Pressman \cite{pressman2016}, a engenharia de software é uma disciplina relacionada com todos os aspectos da produção de software, desde os estágios iniciais de especificação até sua manutenção. Além dos processos técnicos, relaciona-se também com gerenciamento de projeto e desenvolvimento de ferramentas e métodos. Para o ensino de computação, isso implica que não basta ensinar sintaxe de linguagens; é necessário também ensinar práticas de organização, documentação e versionamento \cite{sommerville2011}.
 
-Há, no entanto, uma diferença entre o ambiente de desenvolvimento de habilidades relacionadas à engenharia de software no espaço acadêmico e no empresarial. Conforme Barr \cite{barr2018}, quem escreve bastante código na faculdade não necessariamente fará "bons" códigos nas empresas. Essa lacuna entre a formação acadêmica e as práticas profissionais tem sido objeto de estudo em diversas pesquisas na área de educação em computação \cite{qian2017}. Uma das hipóteses para essa lacuna é a ausência, nos currículos, de disciplinas que integrem teoria e prática por meio de ferramentas reais de desenvolvimento colaborativo \cite{arcuri2020}.
+Há, no entanto, uma diferença entre o ambiente de desenvolvimento de habilidades relacionadas à engenharia de software no espaço acadêmico e no empresarial. Conforme Barr \cite{barr2018}, quem escreve bastante código na faculdade não necessariamente fará ``bons" códigos nas empresas. Essa lacuna entre a formação acadêmica e as práticas profissionais tem sido objeto de estudo em diversas pesquisas na área de educação em computação \cite{qian2017}. Uma das hipóteses para essa lacuna é a ausência, nos currículos, de disciplinas que integrem teoria e prática por meio de ferramentas reais de desenvolvimento colaborativo \cite{arcuri2020}.
+
+O ensino de programação é uma atividade multidisciplinar que demanda uma práxis
+pedagógica apurada– ou seja, uma constante reflexão que integre teoria e prática em 
+sala de aula. Uma estratégia comum é utilizar exemplos do cotidiano para estimular a 
+resolução de problemas por meio de algoritmos. Contudo, avaliar a qualidade desses 
+algoritmos exige ir além da verificação funcional.
 
 Nesse contexto, estudantes de cursos técnicos e tecnológicos da Rede Federal de EPCT frequentemente enfrentam dificuldades em disciplinas como Estrutura de Dados, Algoritmos e Programação Orientada a Objetos \cite{qian2017}. Essas dificuldades podem levar à desistência do curso. O problema emocional envolvido é significativo: estudantes sentem-se incapazes de aprender as disciplinas e, consequentemente, acreditam que não conseguem aprender nada na área de informática.
 
@@ -148,6 +110,7 @@ A Ciência Aberta tem ganhado destaque como um movimento que busca tornar a pesq
 
 Pesquisas recentes mostram que o uso de repositórios Git no ensino promove:
 \begin{itemize}
+\item Participação e colaboração em projetos de código aberto; (quando o software/projeto é de terceiros(mesmo sendo código aberto))
 \item Versionamento e rastreabilidade de contribuições;
 \item Integração com serviços como Zenodo para geração de DOIs;
 \item Baixa barreira de entrada, dada a familiaridade crescente com Git \cite{vanGeest2024}.
@@ -188,25 +151,25 @@ Embora existam serviços alternativos de hospedagem de repositórios, como GitLa
 
 O recorte geográfico da pesquisa é a Amazônia Legal, região político-administrativa brasileira que compreende os estados do Acre, Amapá, Amazonas, Mato Grosso, Pará, Rondônia, Roraima e Tocantins. Foram analisadas as organizações oficiais correspondentes aos Institutos Federais (IFs) da região, conforme listado na Tabela~\ref{tab:ifs}.
 
-\begin{table}[H]
-\centering
-\caption{Institutos Federais da Amazônia Legal analisados}
-\label{tab:ifs}
-\begin{tabular}{|l|l|l|}
-\hline
-\textbf{Sigla} & \textbf{Instituição} & \textbf{Estado} \\
-\hline
-IFAM & Instituto Federal do Amazonas & AM \\
-IFAC & Instituto Federal do Acre & AC \\
-IFRO & Instituto Federal de Rondônia & RO \\
-IFRR & Instituto Federal de Roraima & RR \\
-IFAP & Instituto Federal do Amapá & AP \\
-IFTO & Instituto Federal do Tocantins & TO \\
-IFPA & Instituto Federal do Pará & PA \\
-IFMT & Instituto Federal do Mato Grosso & MT \\
-\hline
-\end{tabular}
-\end{table}
+%\begin{table}[H]
+%\centering
+%\caption{Institutos Federais da Amazônia Legal analisados}
+%\label{tab:ifs}
+%\begin{tabular}{|l|l|l|}
+%\hline
+%\textbf{Sigla} & \textbf{Instituição} & \textbf{Estado} \\
+%\hline
+%IFAM & Instituto Federal do Amazonas & AM \\
+%IFAC & Instituto Federal do Acre & AC \\
+%IFRO & Instituto Federal de Rondônia & RO \\
+%IFRR & Instituto Federal de Roraima & RR \\
+%IFAP & Instituto Federal do Amapá & AP \\
+%IFTO & Instituto Federal do Tocantins & TO \\
+%IFPA & Instituto Federal do Pará & PA \\
+%IFMT & Instituto Federal do Mato Grosso & MT \\
+%\hline
+%\end{tabular}
+%\end{table}
 
 A coleta de dados foi realizada utilizando a API REST do GitHub, com token de autenticação pessoal para garantir maior limite de requisições (5.000 por hora). Para cada organização identificada, foram extraídas métricas como número total de repositórios públicos, linguagens de programação utilizadas, data do último commit, número de estrelas e forks.
 
@@ -222,7 +185,7 @@ Para avaliar a adoção institucional do GitHub, foram definidos os seguintes in
     \item \textbf{Presença individual}: número de usuários que mencionam a sigla do IF em seus perfis (busca textual), como indicador indireto de atividade da comunidade acadêmica na plataforma.
 \end{itemize}
 
-Os dados coletados foram organizados em um DataFrame utilizando a biblioteca Pandas do Python. Para os usuários individuais, foi realizada uma análise por amostragem dos primeiros 100 resultados da busca pela sigla "ifam", classificando-os conforme a presença de indicadores de vínculo institucional na biografia (estudante, professor, técnico, projeto institucional ou não classificado).
+Os dados coletados foram organizados em um DataFrame utilizando a biblioteca Pandas do Python. Para os usuários individuais, foi realizada uma análise por amostragem dos primeiros 100 resultados da busca pela sigla ``ifam", classificando-os conforme a presença de indicadores de vínculo institucional na biografia (estudante, professor, técnico, projeto institucional ou não classificado).
 
 A análise por indicadores permite uma mensuração objetiva e replicável do fenômeno estudado, contrastando com abordagens baseadas exclusivamente em percepção ou questionários.
 
@@ -245,25 +208,25 @@ A seleção dos estudos será realizada em três etapas: (i) triagem por título
 
 Os resultados da coleta via API do GitHub revelam uma baixíssima adoção institucional da plataforma. A Tabela~\ref{tab:resultados} apresenta o panorama dos IFs da Amazônia Legal.
 
-\begin{table}[H]
-\centering
-\caption{Adoção do GitHub por IF na Amazônia Legal}
-\label{tab:resultados}
-\begin{tabular}{|l|l|c|}
-\hline
-\textbf{IF} & \textbf{Status} & \textbf{Repositórios Públicos} \\
-\hline
-IFRO & Com repositórios & 4 \\
-IFAC & Com repositórios & 1 \\
-IFAM & Sem repositórios & 0 \\
-IFRR & Sem repositórios & 0 \\
-IFAP & Sem repositórios & 0 \\
-IFTO & Sem repositórios & 0 \\
-IFMT & Sem repositórios & 0 \\
-IFPA & Não encontrado (404) & - \\
-\hline
-\end{tabular}
-\end{table}
+%\begin{table}[H]
+%\centering
+%\caption{Adoção do GitHub por IF na Amazônia Legal}
+%\label{tab:resultados}
+%\begin{tabular}{|l|l|c|}
+%\hline
+%\textbf{IF} & \textbf{Status} & \textbf{Repositórios Públicos} \\
+%\hline
+%IFRO & Com repositórios & 4 \\
+%IFAC & Com repositórios & 1 \\
+%IFAM & Sem repositórios & 0 \\
+%IFRR & Sem repositórios & 0 \\
+%IFAP & Sem repositórios & 0 \\
+%IFTO & Sem repositórios & 0 \\
+%IFMT & Sem repositórios & 0 \\
+%IFPA & Não encontrado (404) & - \\
+%\hline
+%\end{tabular}
+%\end{table}
 
 Apenas 2 dos 8 IFs analisados (25\%) possuem organização oficial no GitHub com repositórios públicos. O IFRO concentra 80\% dos repositórios encontrados (4 de 5), enquanto o IFPA sequer possui organização registrada na plataforma, retornando erro HTTP 404.
 
@@ -276,22 +239,22 @@ Os repositórios encontrados utilizam linguagens diversas, sem um padrão defini
 
 A busca por usuários que mencionam a sigla "ifam" retornou 349 perfis. Uma análise amostral dos primeiros 100 perfis revelou a seguinte distribuição aproximada:
 
-\begin{table}[H]
-\centering
-\caption{Classificação de usuários por vínculo aparente (amostra IFAM)}
-\label{tab:usuarios}
-\begin{tabular}{|l|c|}
-\hline
-\textbf{Categoria} & \textbf{Percentual na amostra} \\
-\hline
-Estudantes & 65\% \\
-Professores/Pesquisadores & 15\% \\
-Servidores técnicos & 5\% \\
-Projetos institucionais & 3\% \\
-Não classificados & 12\% \\
-\hline
-\end{tabular}
-\end{table}
+%\begin{table}[H]
+%\centering
+%\caption{Classificação de usuários por vínculo aparente (amostra IFAM)}
+%\label{tab:usuarios}
+%\begin{tabular}{|l|c|}
+%\hline
+%\textbf{Categoria} & \textbf{Percentual na amostra} \\
+%\hline
+%Estudantes & 65\% \\
+%Professores/Pesquisadores & 15\% \\
+%Servidores técnicos & 5\% \\
+%Projetos institucionais & 3\% \\
+%Não classificados & 12\% \\
+%\hline
+%\end{tabular}
+%\end{table}
 
 A predominância de estudantes (65\%) sugere que o GitHub é utilizado majoritariamente como ferramenta de aprendizado e portfólio pessoal, e não como estratégia institucional de compartilhamento de código.
 
@@ -424,7 +387,7 @@ Trabalhos futuros podem: (i) expandir a análise para toda a Rede Federal de EPC
 %	\label{eq:one}
 %\end{equation}
 
-\printbibliography
+%\printbibliography
 
 
 %\subsection{Program Code}
