@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.13)  13 APR 2026 15:43
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.13)  13 APR 2026 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -558,89 +558,89 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
 [2]
 
-LaTeX Warning: Citation `pressman2016' on page 03 undefined on input line 90.
+LaTeX Warning: Citation `pressman2016' on page 03 undefined on input line 92.
 
 
-LaTeX Warning: Citation `sommerville2011' on page 03 undefined on input line 90
+LaTeX Warning: Citation `sommerville2011' on page 03 undefined on input line 92
 .
 
 
-LaTeX Warning: Citation `barr2018' on page 03 undefined on input line 92.
-
-
-LaTeX Warning: Citation `qian2017' on page 03 undefined on input line 92.
-
-
-LaTeX Warning: Citation `arcuri2020' on page 03 undefined on input line 92.
+LaTeX Warning: Citation `barr2018' on page 03 undefined on input line 94.
 
 
 LaTeX Warning: Citation `qian2017' on page 03 undefined on input line 94.
 
 
-LaTeX Warning: Citation `vanGeest2024' on page 03 undefined on input line 96.
+LaTeX Warning: Citation `arcuri2020' on page 03 undefined on input line 94.
 
 
-LaTeX Warning: Citation `borges2016' on page 03 undefined on input line 96.
+LaTeX Warning: Citation `qian2017' on page 03 undefined on input line 104.
 
 [3]
 
-LaTeX Warning: Citation `momcheva2025' on page 04 undefined on input line 98.
+LaTeX Warning: Citation `vanGeest2024' on page 04 undefined on input line 106.
 
 
-LaTeX Warning: Citation `momcheva2025' on page 04 undefined on input line 101.
+LaTeX Warning: Citation `borges2016' on page 04 undefined on input line 106.
 
 
-LaTeX Warning: Citation `vanGeest2024' on page 04 undefined on input line 107.
+LaTeX Warning: Citation `momcheva2025' on page 04 undefined on input line 108.
 
 
-LaTeX Warning: Citation `lgpd2018' on page 04 undefined on input line 112.
+LaTeX Warning: Citation `momcheva2025' on page 04 undefined on input line 111.
+
+
+LaTeX Warning: Citation `vanGeest2024' on page 04 undefined on input line 118.
+
+
+LaTeX Warning: Citation `lgpd2018' on page 04 undefined on input line 123.
 
 [4]
-LaTeX Font Info:    Trying to load font information for TU+pcr on input line 13
-2.
-LaTeX Font Info:    No file TUpcr.fd. on input line 132.
+LaTeX Font Info:    Trying to load font information for TU+pcr on input line 14
+3.
+LaTeX Font Info:    No file TUpcr.fd. on input line 143.
 
 
 LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 132.
+(Font)              using `TU/lmr/m/n' instead on input line 143.
 
 
-LaTeX Warning: Citation `moodle2024' on page 05 undefined on input line 132.
+LaTeX Warning: Citation `moodle2024' on page 05 undefined on input line 143.
 
 
-LaTeX Warning: Citation `google2024' on page 05 undefined on input line 132.
+LaTeX Warning: Citation `google2024' on page 05 undefined on input line 143.
 
 
-Overfull \hbox (2.66356pt too wide) in paragraph at lines 132--133
+Overfull \hbox (2.66356pt too wide) in paragraph at lines 143--144
 []\TU/ptm/m/it/12 Pesquisas indicam que existem ferramentas de integração entre
  AVAs e GitHub/GitLab.
  []
 
-
-LaTeX Warning: Reference `tab:ifs' on page 05 undefined on input line 143.
-
 [5]
 
-LaTeX Warning: Citation `kitchenham2004' on page 06 undefined on input line 187
-.
-
-
-LaTeX Warning: Citation `page2021prisma' on page 06 undefined on input line 187
-.
+LaTeX Warning: Reference `tab:ifs' on page 06 undefined on input line 154.
 
 [6]
 
-LaTeX Warning: Reference `tab:resultados' on page 07 undefined on input line 20
-0.
+LaTeX Warning: Citation `kitchenham2004' on page 07 undefined on input line 198
+.
+
+
+LaTeX Warning: Citation `page2021prisma' on page 07 undefined on input line 198
+.
+
+
+LaTeX Warning: Reference `tab:resultados' on page 07 undefined on input line 21
+1.
 
 [7]
 
-LaTeX Warning: Citation `moodle2024' on page 08 undefined on input line 267.
+LaTeX Warning: Citation `moodle2024' on page 08 undefined on input line 278.
 
 
-LaTeX Warning: Citation `google2024' on page 08 undefined on input line 267.
+LaTeX Warning: Citation `google2024' on page 08 undefined on input line 278.
 
-[8] [9] (RBIEtemplate.aux
+[8] [9] [10] (RBIEtemplate.aux
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
 )
@@ -659,12 +659,12 @@ Package rerunfilecheck Info: File `RBIEtemplate.out' has not changed.
 (rerunfilecheck)             Checksum: A2B7FFC873D3380D89538698836290DB;3468.
  ) 
 Here is how much of TeX's memory you used:
- 11709 strings out of 402983
- 185754 string characters out of 5447654
+ 11708 strings out of 402983
+ 185738 string characters out of 5447654
  716463 words of memory out of 5000000
- 40290 multiletter control sequences out of 15000+600000
+ 40289 multiletter control sequences out of 15000+600000
  657963 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,13n,93p,995b,403s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on RBIEtemplate.pdf (9 pages).
+Output written on RBIEtemplate.pdf (10 pages).
