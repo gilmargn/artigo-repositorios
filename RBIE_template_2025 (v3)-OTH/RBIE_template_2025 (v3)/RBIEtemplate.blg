@@ -1,47 +1,62 @@
-This is BibTeX, Version 0.99d (TeX Live 2025)
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: RBIEtemplate.aux
-I found no \bibdata command---while reading file RBIEtemplate.aux
-I found no \bibstyle command---while reading file RBIEtemplate.aux
-You've used 16 entries,
-            0 wiz_defined-function locations,
-            100 strings with 686 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--No address in kitchenham2004
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--`others' not consistent with 6th ed. of the APA Manual
+You've used 20 entries,
+            6951 wiz_defined-function locations,
+            1385 strings with 13701 characters,
+and the built_in function-call counts, 35858 in all, are:
+= -- 4581
+> -- 292
+< -- 1573
++ -- 1544
+- -- 52
+* -- 2115
+:= -- 6270
+add.period$ -- 91
+call.type$ -- 20
+change.case$ -- 345
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 41
+duplicate$ -- 901
+empty$ -- 1496
+format.name$ -- 429
+if$ -- 7076
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 60
 missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+newline$ -- 488
+num.names$ -- 160
+pop$ -- 935
+preamble$ -- 1
+purify$ -- 80
 quote$ -- 0
-skip$ -- 0
+skip$ -- 2334
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 1733
+swap$ -- 511
+text.length$ -- 73
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+top$ -- 1
+type$ -- 1920
+warning$ -- 5
+while$ -- 151
 width$ -- 0
-write$ -- 0
-(There were 2 error messages)
+write$ -- 580
+(There were 5 warnings)
